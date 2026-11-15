@@ -1,0 +1,2160 @@
+{
+ "source": "NASA Physical Science Informatics — SAFFIRE I/II/III, sheet 'Calibrated Data'",
+ "samples": [
+  {
+   "id": "SAFFIRE-I-S1",
+   "slug": "saffire_i_s1",
+   "mission": "SAFFIRE-I",
+   "vehicle": "Cygnus OA-6",
+   "year": 2016,
+   "sample": "S1",
+   "source_file": "saffire_1/S1.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mW/cm2",
+    "Radiometer 2": "mW/cm2",
+    "Radiometer 3": "mW/cm2",
+    "Radiometer 4": "mW/cm2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 660.0,
+    "records": 20000,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 8.0,
+    "igniter_peak_a": 4.12,
+    "o2_initial_pct": 22.642,
+    "o2_min_pct": 22.206,
+    "o2_max_pct": 22.72,
+    "co2_initial_pct": 0.427,
+    "co2_min_pct": 0.424,
+    "co2_max_pct": 0.632,
+    "o2_drop_pct": 0.436,
+    "co2_rise_pct": 0.205,
+    "pressure_mean_psia": 14.869,
+    "pressure_rise_psia": 0.06,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -0.834,
+    "radiometer_rise_mw_cm2": 139.438,
+    "radiometer_peak_time_s": 225.0,
+    "flame_signal_start_s": 66.9,
+    "flame_signal_end_s": 481.7,
+    "flame_duration_s": 414.8,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 42195.6,
+    "plume_temp_peak_c": 121.7,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 58.0,
+      "time_s": 129.2
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 72.8,
+      "time_s": 126.6
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 121.7,
+      "time_s": 477.7
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 87.6,
+      "time_s": 110.5
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 38.1,
+      "time_s": 484.7
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 42.3,
+      "time_s": 479.6
+     }
+    ],
+    "sample_temp_peak_c": 1091.8,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 698.3,
+      "time_s": 193.8
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 886.0,
+      "time_s": 206.7
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 1078.1,
+      "time_s": 204.4
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 688.1,
+      "time_s": 359.5
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 1091.8,
+      "time_s": 369.0
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 332.6,
+      "time_s": 344.7
+     }
+    ],
+    "inlet_temp_mean_c": 20.86,
+    "airflow_during_flame_cm_s": 20.0,
+    "airflow_median_cm_s": 20.0,
+    "sample_front_transit_s": 175.2
+   },
+   "meta": {
+    "material": "SIBAL Fabric",
+    "flow_direction": "Concurrent",
+    "nominal_flow_cm_s": 20,
+    "nominal_o2_pct": "21.5–21.7",
+    "size_cm": "40.6 × 94",
+    "thickness_cm": 0.37
+   }
+  },
+  {
+   "id": "SAFFIRE-I-S2",
+   "slug": "saffire_i_s2",
+   "mission": "SAFFIRE-I",
+   "vehicle": "Cygnus OA-6",
+   "year": 2016,
+   "sample": "S2",
+   "source_file": "saffire_1/S2.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 660.0,
+    "records": 32599,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 8.0,
+    "igniter_peak_a": 4.15,
+    "o2_initial_pct": 22.324,
+    "o2_min_pct": 22.21,
+    "o2_max_pct": 22.451,
+    "co2_initial_pct": 0.63,
+    "co2_min_pct": 0.625,
+    "co2_max_pct": 0.646,
+    "o2_drop_pct": 0.114,
+    "co2_rise_pct": 0.016,
+    "pressure_mean_psia": 14.877,
+    "pressure_rise_psia": 0.023,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -0.834,
+    "radiometer_rise_mw_cm2": 8.954,
+    "radiometer_peak_time_s": 104.5,
+    "flame_signal_start_s": 82.8,
+    "flame_signal_end_s": 127.5,
+    "flame_duration_s": 44.7,
+    "flame_confidence": "medium",
+    "radiant_dose_mj_cm2": 195.6,
+    "plume_temp_peak_c": 94.4,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 32.3,
+      "time_s": 105.7
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 41.6,
+      "time_s": 116.4
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 94.4,
+      "time_s": 106.5
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 59.4,
+      "time_s": 111.6
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 32.1,
+      "time_s": 1.2
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 33.6,
+      "time_s": 8.3
+     }
+    ],
+    "sample_temp_peak_c": 24.9,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 23.6,
+      "time_s": 244.1
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 23.2,
+      "time_s": 354.4
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 22.8,
+      "time_s": 9.4
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 24.0,
+      "time_s": 538.0
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 24.5,
+      "time_s": 31.0
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 24.9,
+      "time_s": 512.8
+     }
+    ],
+    "inlet_temp_mean_c": 21.26,
+    "airflow_during_flame_cm_s": 19.99,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {
+    "material": "SIBAL Fabric",
+    "flow_direction": "Opposed",
+    "nominal_flow_cm_s": 20,
+    "nominal_o2_pct": "~21.5",
+    "size_cm": "40.6 × 94",
+    "thickness_cm": 0.37
+   }
+  },
+  {
+   "id": "SAFFIRE-II-S1",
+   "slug": "saffire_ii_s1",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S1",
+   "source_file": "saffire_2/S1.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 435.0,
+    "records": 13182,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.1,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.527,
+    "o2_min_pct": 21.446,
+    "o2_max_pct": 21.872,
+    "co2_initial_pct": 0.332,
+    "co2_min_pct": 0.329,
+    "co2_max_pct": 0.336,
+    "o2_drop_pct": 0.081,
+    "co2_rise_pct": 0.004,
+    "pressure_mean_psia": 14.866,
+    "pressure_rise_psia": 0.019,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 25.558,
+    "radiometer_peak_time_s": 66.3,
+    "flame_signal_start_s": 62.3,
+    "flame_signal_end_s": 72.3,
+    "flame_duration_s": 10.0,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 162.7,
+    "plume_temp_peak_c": 23.3,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 23.3,
+      "time_s": 420.7
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.3,
+      "time_s": 162.6
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 23.3,
+      "time_s": 420.8
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 23.2,
+      "time_s": 414.6
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.3,
+      "time_s": 143.6
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.3,
+      "time_s": 252.9
+     }
+    ],
+    "sample_temp_peak_c": 21.3,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 21.3,
+      "time_s": 157.4
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.3,
+      "time_s": 24.4
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.1,
+      "time_s": 159.3
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 21.3,
+      "time_s": 332.0
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 20.5,
+      "time_s": 23.3
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 20.9,
+      "time_s": 149.6
+     }
+    ],
+    "inlet_temp_mean_c": 19.97,
+    "airflow_during_flame_cm_s": 19.99,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S2",
+   "slug": "saffire_ii_s2",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S2",
+   "source_file": "saffire_2/S2.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 555.0,
+    "records": 16818,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.2,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.567,
+    "o2_min_pct": 21.418,
+    "o2_max_pct": 21.863,
+    "co2_initial_pct": 0.332,
+    "co2_min_pct": 0.331,
+    "co2_max_pct": 0.337,
+    "o2_drop_pct": 0.149,
+    "co2_rise_pct": 0.005,
+    "pressure_mean_psia": 14.868,
+    "pressure_rise_psia": 0.023,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 31.58,
+    "radiometer_peak_time_s": 69.0,
+    "flame_signal_start_s": 62.7,
+    "flame_signal_end_s": 74.6,
+    "flame_duration_s": 12.0,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 175.4,
+    "plume_temp_peak_c": 62.8,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 23.5,
+      "time_s": 111.3
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.4,
+      "time_s": 424.0
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 62.8,
+      "time_s": 71.8
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 48.4,
+      "time_s": 71.5
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.4,
+      "time_s": 519.5
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.5,
+      "time_s": 180.9
+     }
+    ],
+    "sample_temp_peak_c": 21.3,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.5,
+      "time_s": 11.0
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.3,
+      "time_s": 376.8
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.5,
+      "time_s": 408.2
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 21.3,
+      "time_s": 150.2
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 20.5,
+      "time_s": 20.1
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 21.3,
+      "time_s": 68.0
+     }
+    ],
+    "inlet_temp_mean_c": 20.07,
+    "airflow_during_flame_cm_s": 19.99,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S3",
+   "slug": "saffire_ii_s3",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S3",
+   "source_file": "saffire_2/S3.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 555.0,
+    "records": 16818,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.2,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.531,
+    "o2_min_pct": 21.409,
+    "o2_max_pct": 21.867,
+    "co2_initial_pct": 0.331,
+    "co2_min_pct": 0.329,
+    "co2_max_pct": 0.338,
+    "o2_drop_pct": 0.122,
+    "co2_rise_pct": 0.007,
+    "pressure_mean_psia": 14.872,
+    "pressure_rise_psia": 0.032,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 13.729,
+    "radiometer_peak_time_s": 69.2,
+    "flame_signal_start_s": 62.7,
+    "flame_signal_end_s": 73.1,
+    "flame_duration_s": 10.4,
+    "flame_confidence": "medium",
+    "radiant_dose_mj_cm2": 60.8,
+    "plume_temp_peak_c": 23.6,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 23.5,
+      "time_s": 552.1
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.6,
+      "time_s": 58.4
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 23.4,
+      "time_s": 262.7
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 23.4,
+      "time_s": 549.3
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.6,
+      "time_s": 476.0
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.6,
+      "time_s": 207.8
+     }
+    ],
+    "sample_temp_peak_c": 22.1,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.9,
+      "time_s": 385.8
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 22.1,
+      "time_s": 54.2
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.5,
+      "time_s": 78.7
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 21.3,
+      "time_s": 176.3
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 20.5,
+      "time_s": 83.8
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 21.3,
+      "time_s": 246.1
+     }
+    ],
+    "inlet_temp_mean_c": 20.14,
+    "airflow_during_flame_cm_s": 19.99,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S4",
+   "slug": "saffire_ii_s4",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S4",
+   "source_file": "saffire_2/S4.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 555.0,
+    "records": 16818,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.2,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.546,
+    "o2_min_pct": 21.446,
+    "o2_max_pct": 21.877,
+    "co2_initial_pct": 0.333,
+    "co2_min_pct": 0.33,
+    "co2_max_pct": 0.337,
+    "o2_drop_pct": 0.1,
+    "co2_rise_pct": 0.004,
+    "pressure_mean_psia": 14.876,
+    "pressure_rise_psia": 0.027,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 29.809,
+    "radiometer_peak_time_s": 68.9,
+    "flame_signal_start_s": 62.2,
+    "flame_signal_end_s": 73.2,
+    "flame_duration_s": 11.0,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 185.3,
+    "plume_temp_peak_c": 23.8,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 23.6,
+      "time_s": 20.2
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.7,
+      "time_s": 535.0
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 23.5,
+      "time_s": 518.8
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 23.5,
+      "time_s": 232.1
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.8,
+      "time_s": 467.2
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.6,
+      "time_s": 234.5
+     }
+    ],
+    "sample_temp_peak_c": 21.7,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.5,
+      "time_s": 63.2
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.3,
+      "time_s": 146.3
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.5,
+      "time_s": 100.5
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 21.3,
+      "time_s": 260.5
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 21.3,
+      "time_s": 53.0
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 21.7,
+      "time_s": 486.7
+     }
+    ],
+    "inlet_temp_mean_c": 20.23,
+    "airflow_during_flame_cm_s": 20.01,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S5",
+   "slug": "saffire_ii_s5",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S5",
+   "source_file": "saffire_2/S5.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 374.9,
+    "records": 11363,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.1,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.799,
+    "o2_min_pct": 21.475,
+    "o2_max_pct": 21.881,
+    "co2_initial_pct": 0.334,
+    "co2_min_pct": 0.333,
+    "co2_max_pct": 0.344,
+    "o2_drop_pct": 0.324,
+    "co2_rise_pct": 0.01,
+    "pressure_mean_psia": 14.88,
+    "pressure_rise_psia": 0.024,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 80.271,
+    "radiometer_peak_time_s": 62.8,
+    "flame_signal_start_s": 62.3,
+    "flame_signal_end_s": 198.7,
+    "flame_duration_s": 136.3,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 2346.4,
+    "plume_temp_peak_c": 52.4,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 32.9,
+      "time_s": 66.8
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 52.4,
+      "time_s": 181.7
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 40.1,
+      "time_s": 191.4
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 41.5,
+      "time_s": 132.5
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.7,
+      "time_s": 156.3
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.8,
+      "time_s": 16.5
+     }
+    ],
+    "sample_temp_peak_c": 960.8,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 680.8,
+      "time_s": 104.8
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 960.8,
+      "time_s": 136.2
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.5,
+      "time_s": 221.2
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 20.9,
+      "time_s": 74.0
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 20.5,
+      "time_s": 370.7
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 22.1,
+      "time_s": 319.3
+     }
+    ],
+    "inlet_temp_mean_c": 20.29,
+    "airflow_during_flame_cm_s": 20.0,
+    "airflow_median_cm_s": 19.99,
+    "sample_front_transit_s": 31.4
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S6",
+   "slug": "saffire_ii_s6",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S6",
+   "source_file": "saffire_2/S6.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 374.9,
+    "records": 11363,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.1,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.796,
+    "o2_min_pct": 21.432,
+    "o2_max_pct": 21.877,
+    "co2_initial_pct": 0.341,
+    "co2_min_pct": 0.338,
+    "co2_max_pct": 0.35,
+    "o2_drop_pct": 0.364,
+    "co2_rise_pct": 0.009,
+    "pressure_mean_psia": 14.884,
+    "pressure_rise_psia": 0.021,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 32.524,
+    "radiometer_peak_time_s": 63.9,
+    "flame_signal_start_s": 61.7,
+    "flame_signal_end_s": 174.8,
+    "flame_duration_s": 113.1,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 1294.2,
+    "plume_temp_peak_c": 23.9,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 23.9,
+      "time_s": 327.0
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.8,
+      "time_s": 358.2
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 23.7,
+      "time_s": 345.3
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 23.7,
+      "time_s": 328.9
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.9,
+      "time_s": 313.6
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.7,
+      "time_s": 96.4
+     }
+    ],
+    "sample_temp_peak_c": 843.4,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.9,
+      "time_s": 326.9
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.3,
+      "time_s": 206.7
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 21.3,
+      "time_s": 69.2
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 21.3,
+      "time_s": 5.1
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 649.2,
+      "time_s": 97.4
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 843.4,
+      "time_s": 124.3
+     }
+    ],
+    "inlet_temp_mean_c": 20.4,
+    "airflow_during_flame_cm_s": 25.0,
+    "airflow_median_cm_s": 24.99,
+    "sample_front_transit_s": 26.9
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S7",
+   "slug": "saffire_ii_s7",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S7",
+   "source_file": "saffire_2/S7.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 674.9,
+    "records": 20454,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 9.1,
+    "igniter_peak_a": 3.77,
+    "o2_initial_pct": 21.792,
+    "o2_min_pct": 21.404,
+    "o2_max_pct": 21.877,
+    "co2_initial_pct": 0.347,
+    "co2_min_pct": 0.344,
+    "co2_max_pct": 0.366,
+    "o2_drop_pct": 0.388,
+    "co2_rise_pct": 0.019,
+    "pressure_mean_psia": 14.885,
+    "pressure_rise_psia": 0.024,
+    "flame_detection_method": "thermocouple",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 5.51,
+    "radiometer_peak_time_s": 68.9,
+    "flame_signal_start_s": 66.3,
+    "flame_signal_end_s": 214.1,
+    "flame_duration_s": 147.8,
+    "flame_confidence": "medium",
+    "radiant_dose_mj_cm2": 18.1,
+    "plume_temp_peak_c": 25.6,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 24.0,
+      "time_s": 613.8
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 23.8,
+      "time_s": 666.4
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 25.6,
+      "time_s": 207.9
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 23.8,
+      "time_s": 658.2
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 23.9,
+      "time_s": 667.8
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 23.8,
+      "time_s": 540.0
+     }
+    ],
+    "sample_temp_peak_c": 463.9,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.9,
+      "time_s": 287.5
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.3,
+      "time_s": 473.9
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 463.9,
+      "time_s": 192.6
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 312.0,
+      "time_s": 148.4
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 21.3,
+      "time_s": 335.6
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 21.3,
+      "time_s": 272.4
+     }
+    ],
+    "inlet_temp_mean_c": 20.33,
+    "airflow_during_flame_cm_s": 20.01,
+    "airflow_median_cm_s": 19.99,
+    "sample_front_transit_s": 44.2
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S8",
+   "slug": "saffire_ii_s8",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S8",
+   "source_file": "saffire_2/S8.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 720.0,
+    "records": 21818,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 29.9,
+    "igniter_peak_a": 3.73,
+    "o2_initial_pct": 21.541,
+    "o2_min_pct": 21.399,
+    "o2_max_pct": 21.863,
+    "co2_initial_pct": 0.36,
+    "co2_min_pct": 0.359,
+    "co2_max_pct": 0.432,
+    "o2_drop_pct": 0.142,
+    "co2_rise_pct": 0.072,
+    "pressure_mean_psia": 14.896,
+    "pressure_rise_psia": 0.039,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 10.101,
+    "radiometer_peak_time_s": 583.3,
+    "flame_signal_start_s": 287.0,
+    "flame_signal_end_s": 662.9,
+    "flame_duration_s": 375.9,
+    "flame_confidence": "medium",
+    "radiant_dose_mj_cm2": 2119.8,
+    "plume_temp_peak_c": 97.3,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 97.3,
+      "time_s": 410.2
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 70.2,
+      "time_s": 411.3
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 59.4,
+      "time_s": 661.8
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 67.1,
+      "time_s": 661.7
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 24.2,
+      "time_s": 706.2
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 24.1,
+      "time_s": 718.6
+     }
+    ],
+    "sample_temp_peak_c": 85.9,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 85.9,
+      "time_s": 90.0
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 82.3,
+      "time_s": 90.0
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 26.7,
+      "time_s": 654.5
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 25.9,
+      "time_s": 646.3
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 20.9,
+      "time_s": 258.6
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 20.9,
+      "time_s": 225.4
+     }
+    ],
+    "inlet_temp_mean_c": 20.52,
+    "airflow_during_flame_cm_s": 20.0,
+    "airflow_median_cm_s": 20.0,
+    "sample_front_transit_s": 0.0
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-II-S9",
+   "slug": "saffire_ii_s9",
+   "mission": "SAFFIRE-II",
+   "vehicle": "Cygnus OA-5",
+   "year": 2016,
+   "sample": "S9",
+   "source_file": "saffire_2/S9.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 1020.0,
+    "records": 30909,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 30.0,
+    "igniter_peak_a": 3.73,
+    "o2_initial_pct": 21.536,
+    "o2_min_pct": 21.139,
+    "o2_max_pct": 21.621,
+    "co2_initial_pct": 0.431,
+    "co2_min_pct": 0.43,
+    "co2_max_pct": 0.51,
+    "o2_drop_pct": 0.397,
+    "co2_rise_pct": 0.079,
+    "pressure_mean_psia": 14.909,
+    "pressure_rise_psia": 0.032,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -15.717,
+    "radiometer_rise_mw_cm2": 5.625,
+    "radiometer_peak_time_s": 82.6,
+    "flame_signal_start_s": 66.9,
+    "flame_signal_end_s": 90.8,
+    "flame_duration_s": 23.9,
+    "flame_confidence": "low",
+    "radiant_dose_mj_cm2": 88.6,
+    "plume_temp_peak_c": 38.5,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 38.5,
+      "time_s": 959.3
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 38.2,
+      "time_s": 945.6
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 33.2,
+      "time_s": 1.1
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 34.0,
+      "time_s": 0.5
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 24.8,
+      "time_s": 740.5
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 24.6,
+      "time_s": 1018.8
+     }
+    ],
+    "sample_temp_peak_c": 56.7,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 20.9,
+      "time_s": 333.4
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 21.7,
+      "time_s": 823.8
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 20.9,
+      "time_s": 416.2
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 20.9,
+      "time_s": 123.0
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 53.5,
+      "time_s": 918.2
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 56.7,
+      "time_s": 845.2
+     }
+    ],
+    "inlet_temp_mean_c": 20.81,
+    "airflow_during_flame_cm_s": 19.95,
+    "airflow_median_cm_s": 19.99
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-III-S1",
+   "slug": "saffire_iii_s1",
+   "mission": "SAFFIRE-III",
+   "vehicle": "Cygnus OA-7",
+   "year": 2017,
+   "sample": "S1",
+   "source_file": "saffire_3/S1.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 690.0,
+    "records": 20909,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 8.0,
+    "igniter_peak_a": 0.94,
+    "o2_initial_pct": 19.786,
+    "o2_min_pct": 19.399,
+    "o2_max_pct": 20.077,
+    "co2_initial_pct": 0.394,
+    "co2_min_pct": 0.393,
+    "co2_max_pct": 0.606,
+    "o2_drop_pct": 0.387,
+    "co2_rise_pct": 0.212,
+    "pressure_mean_psia": 14.458,
+    "pressure_rise_psia": 0.073,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -16.312,
+    "radiometer_rise_mw_cm2": 185.663,
+    "radiometer_peak_time_s": 293.4,
+    "flame_signal_start_s": 67.0,
+    "flame_signal_end_s": 412.4,
+    "flame_duration_s": 345.4,
+    "flame_confidence": "high",
+    "radiant_dose_mj_cm2": 43800.6,
+    "plume_temp_peak_c": 95.6,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 63.3,
+      "time_s": 122.3
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 90.0,
+      "time_s": 116.7
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 95.6,
+      "time_s": 109.8
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 78.0,
+      "time_s": 116.3
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 49.2,
+      "time_s": 434.5
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 51.6,
+      "time_s": 431.7
+     }
+    ],
+    "sample_temp_peak_c": 1088.2,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 710.1,
+      "time_s": 176.9
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 857.8,
+      "time_s": 183.8
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 1060.0,
+      "time_s": 185.7
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 706.4,
+      "time_s": 307.2
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 1088.2,
+      "time_s": 307.2
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 329.5,
+      "time_s": 290.9
+     }
+    ],
+    "inlet_temp_mean_c": 21.57,
+    "airflow_during_flame_cm_s": 25.01,
+    "airflow_median_cm_s": 24.98,
+    "sample_front_transit_s": 130.3
+   },
+   "meta": {}
+  },
+  {
+   "id": "SAFFIRE-III-S2",
+   "slug": "saffire_iii_s2",
+   "mission": "SAFFIRE-III",
+   "vehicle": "Cygnus OA-7",
+   "year": 2017,
+   "sample": "S2",
+   "source_file": "saffire_3/S2.xlsx",
+   "channels": [
+    "Ambient Pressure",
+    "Anemometer 1",
+    "Anemometer 2",
+    "Average Fan Speed",
+    "CO2",
+    "Humidity",
+    "Igniter Current",
+    "Igniter Voltage",
+    "O2",
+    "Plume Temp 1 (TC1)",
+    "Plume Temp 2 (TC2)",
+    "Plume Temp 3 (TC3)",
+    "Plume Temp 4 (TC4)",
+    "Plume Temp 5 (TC5)",
+    "Plume Temp 6 (TC6)",
+    "Radiometer 1",
+    "Radiometer 2",
+    "Radiometer 3",
+    "Radiometer 4",
+    "Sample Temp 1 (TC7)",
+    "Sample Temp 2 (TC8)",
+    "Sample Temp 3 (TC9)",
+    "Sample Temp 4 (TC10)",
+    "Sample Temp 5 (TC11)",
+    "Sample Temp 6 (TC12)",
+    "Test Section Inlet Temp"
+   ],
+   "units": {
+    "O2": "%",
+    "CO2": "%",
+    "Ambient Pressure": "PSIA",
+    "Humidity": "%",
+    "Anemometer 1": "cm/sec",
+    "Anemometer 2": "cm/sec",
+    "Average Fan Speed": "RPM",
+    "Radiometer 1": "mw/cm^2",
+    "Radiometer 2": "mw/cm^2",
+    "Radiometer 3": "mw/cm^2",
+    "Radiometer 4": "mw/cm^2",
+    "Plume Temp 1 (TC1)": "Degrees C",
+    "Plume Temp 2 (TC2)": "Degrees C",
+    "Plume Temp 3 (TC3)": "Degrees C",
+    "Plume Temp 4 (TC4)": "Degrees C",
+    "Plume Temp 5 (TC5)": "Degrees C",
+    "Plume Temp 6 (TC6)": "Degrees C",
+    "Sample Temp 1 (TC7)": "Degrees C",
+    "Sample Temp 2 (TC8)": "Degrees C",
+    "Sample Temp 3 (TC9)": "Degrees C",
+    "Sample Temp 4 (TC10)": "Degrees C",
+    "Sample Temp 5 (TC11)": "Degrees C",
+    "Sample Temp 6 (TC12)": "Degrees C",
+    "Test Section Inlet Temp": "Degrees C",
+    "Igniter Current": "Amps",
+    "Igniter Voltage": "Volts"
+   },
+   "metrics": {
+    "duration_s": 160.0,
+    "records": 4848,
+    "ignition_time_s": 60.0,
+    "igniter_on_s": 8.0,
+    "igniter_peak_a": 0.94,
+    "o2_initial_pct": 19.782,
+    "o2_min_pct": 19.694,
+    "o2_max_pct": 20.132,
+    "co2_initial_pct": 0.377,
+    "co2_min_pct": 0.374,
+    "co2_max_pct": 0.389,
+    "o2_drop_pct": 0.088,
+    "co2_rise_pct": 0.012,
+    "pressure_mean_psia": 14.416,
+    "pressure_rise_psia": 0.027,
+    "flame_detection_method": "radiometer",
+    "radiometer_baseline_mw_cm2": -16.312,
+    "radiometer_rise_mw_cm2": 12.587,
+    "radiometer_peak_time_s": 129.3,
+    "flame_signal_start_s": 64.1,
+    "flame_signal_end_s": 131.3,
+    "flame_duration_s": 67.3,
+    "flame_confidence": "medium",
+    "radiant_dose_mj_cm2": 518.6,
+    "plume_temp_peak_c": 48.4,
+    "plume_tc_peaks": [
+     {
+      "channel": "Plume Temp 1 (TC1)",
+      "peak_c": 30.2,
+      "time_s": 159.9
+     },
+     {
+      "channel": "Plume Temp 2 (TC2)",
+      "peak_c": 41.9,
+      "time_s": 159.9
+     },
+     {
+      "channel": "Plume Temp 3 (TC3)",
+      "peak_c": 48.4,
+      "time_s": 159.9
+     },
+     {
+      "channel": "Plume Temp 4 (TC4)",
+      "peak_c": 35.8,
+      "time_s": 159.9
+     },
+     {
+      "channel": "Plume Temp 5 (TC5)",
+      "peak_c": 26.1,
+      "time_s": 134.3
+     },
+     {
+      "channel": "Plume Temp 6 (TC6)",
+      "peak_c": 26.8,
+      "time_s": 132.4
+     }
+    ],
+    "sample_temp_peak_c": 20.0,
+    "sample_tc_peaks": [
+     {
+      "channel": "Sample Temp 1 (TC7)",
+      "peak_c": 17.5,
+      "time_s": 23.9
+     },
+     {
+      "channel": "Sample Temp 2 (TC8)",
+      "peak_c": 17.9,
+      "time_s": 74.9
+     },
+     {
+      "channel": "Sample Temp 3 (TC9)",
+      "peak_c": 17.9,
+      "time_s": 37.7
+     },
+     {
+      "channel": "Sample Temp 4 (TC10)",
+      "peak_c": 17.1,
+      "time_s": 7.2
+     },
+     {
+      "channel": "Sample Temp 5 (TC11)",
+      "peak_c": 17.1,
+      "time_s": 10.6
+     },
+     {
+      "channel": "Sample Temp 6 (TC12)",
+      "peak_c": 20.0,
+      "time_s": 138.8
+     }
+    ],
+    "inlet_temp_mean_c": 21.11,
+    "airflow_during_flame_cm_s": 24.99,
+    "airflow_median_cm_s": 24.98
+   },
+   "meta": {}
+  }
+ ],
+ "channel_groups": {
+  "atmosphere": [
+   "O2",
+   "CO2",
+   "Ambient Pressure",
+   "Humidity"
+  ],
+  "flow": [
+   "Anemometer 1",
+   "Anemometer 2",
+   "Average Fan Speed"
+  ],
+  "radiation": [
+   "Radiometer 1",
+   "Radiometer 2",
+   "Radiometer 3",
+   "Radiometer 4"
+  ],
+  "plume": [
+   "Plume Temp 1 (TC1)",
+   "Plume Temp 2 (TC2)",
+   "Plume Temp 3 (TC3)",
+   "Plume Temp 4 (TC4)",
+   "Plume Temp 5 (TC5)",
+   "Plume Temp 6 (TC6)"
+  ],
+  "sample": [
+   "Sample Temp 1 (TC7)",
+   "Sample Temp 2 (TC8)",
+   "Sample Temp 3 (TC9)",
+   "Sample Temp 4 (TC10)",
+   "Sample Temp 5 (TC11)",
+   "Sample Temp 6 (TC12)"
+  ],
+  "inlet": [
+   "Test Section Inlet Temp"
+  ],
+  "igniter": [
+   "Igniter Current",
+   "Igniter Voltage"
+  ]
+ }
+}
