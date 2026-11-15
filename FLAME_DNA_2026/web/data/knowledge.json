@@ -1,0 +1,124 @@
+{
+  "investigations": [
+    {
+      "id": "SAFFIRE", "name": "SAFFIRE I–III — Spacecraft Fire Safety Experiment", "platform": "Uncrewed Cygnus cargo vehicle (after ISS departure)", "years": "2016–2017",
+      "lab": "NASA Glenn Research Center", "focus": "Large-scale flame spread over spacecraft materials in microgravity, cabin O₂/CO₂ evolution, radiative heat flux.",
+      "fire_safety": "First fire large enough to represent a real cabin fire; directly informs material selection, detection thresholds and cabin-atmosphere response models.",
+      "criteria": {"habitat_scale": 1, "material_flammability": 1, "detection": 0.8, "suppression": 0.3, "predictive_modeling": 1},
+      "local": true, "tags": ["Flame spread", "Large scale", "Cabin atmosphere"], "query": "Saffire spacecraft fire experiment"
+    },
+    {
+      "id": "BASS", "name": "BASS & BASS-II — Burning and Suppression of Solids", "platform": "ISS · Microgravity Science Glovebox", "years": "2011–2013",
+      "lab": "NASA Glenn Research Center", "focus": "Flame spread, flammability limits and extinction of solid fuels (PMMA, cotton-fiberglass, acrylic spheres) under controlled low-speed flow and reduced O₂.",
+      "fire_safety": "Shows that some materials burn in microgravity at lower flows/O₂ than predicted by 1-g tests; data on extinguishment by flow reduction or nitrogen.",
+      "criteria": {"habitat_scale": 0.3, "material_flammability": 1, "detection": 0.2, "suppression": 0.8, "predictive_modeling": 0.9},
+      "local": false, "tags": ["Solids", "Extinction", "Flow"], "query": "Burning and Suppression of Solids BASS"
+    },
+    {
+      "id": "SoFIE", "name": "SoFIE — Solid Fuel Ignition and Extinction", "platform": "ISS · Combustion Integrated Rack", "years": "2022–",
+      "lab": "NASA Glenn Research Center", "focus": "Ignition, flame growth and extinction of solid materials across pressures, O₂ levels and flow speeds — including exploration-atmosphere conditions.",
+      "fire_safety": "Targets the low-pressure / high-O₂ atmospheres planned for exploration vehicles and habitats.",
+      "criteria": {"habitat_scale": 0.4, "material_flammability": 1, "detection": 0.3, "suppression": 0.5, "predictive_modeling": 1},
+      "local": false, "tags": ["Ignition", "Exploration atmosphere"], "query": "Solid Fuel Ignition and Extinction SoFIE"
+    },
+    {
+      "id": "SAME", "name": "SAME / SAME-R — Smoke Aerosol Measurement Experiment", "platform": "ISS · Microgravity Science Glovebox", "years": "2007–2008 · reflight",
+      "lab": "NASA Glenn Research Center", "focus": "Particle-size distribution of smoke from overheated spacecraft materials (Teflon, Kapton, silicone, cellulose) in microgravity.",
+      "fire_safety": "Smoke detectors are only as good as their match to real smoke: SAME data guide the design of next-generation spacecraft (and terrestrial) smoke detectors.",
+      "criteria": {"habitat_scale": 0.5, "material_flammability": 0.4, "detection": 1, "suppression": 0, "predictive_modeling": 0.5},
+      "local": false, "tags": ["Smoke", "Detection"], "query": "Smoke Aerosol Measurement Experiment SAME"
+    },
+    {
+      "id": "SSCE", "name": "SSCE — Solid Surface Combustion Experiment", "platform": "Space Shuttle middeck (8 flights)", "years": "1990–1996",
+      "lab": "NASA Lewis (Glenn) Research Center", "focus": "Flame spread over thin paper and thick PMMA in quiescent microgravity and different O₂/pressure.",
+      "fire_safety": "Early evidence that flames in still air spread slowly or self-extinguish — and that a ventilation flow changes everything.",
+      "criteria": {"habitat_scale": 0.2, "material_flammability": 0.9, "detection": 0.1, "suppression": 0.4, "predictive_modeling": 0.8},
+      "local": false, "tags": ["Flame spread", "Quiescent"], "query": "Solid Surface Combustion Experiment"
+    },
+    {
+      "id": "MIST", "name": "MIST — Water-Mist Fire Suppression", "platform": "Space Shuttle STS-107", "years": "2003",
+      "lab": "NASA / industry partners", "focus": "Interaction of fine water droplets with a propagating premixed flame — how mist size and density extinguish fire.",
+      "fire_safety": "Basis for fine-water-mist extinguishers: low water mass, no toxic residue — used in space and in terrestrial fire protection.",
+      "criteria": {"habitat_scale": 0.4, "material_flammability": 0.1, "detection": 0, "suppression": 1, "predictive_modeling": 0.6},
+      "local": false, "tags": ["Suppression", "Water mist", "Earth spinoff"], "query": "water mist fire suppression microgravity"
+    },
+    {
+      "id": "FLEX", "name": "FLEX / FLEX-2 — Flame Extinguishment Experiments", "platform": "ISS · Combustion Integrated Rack", "years": "2009–2016",
+      "lab": "NASA Glenn Research Center", "focus": "Burning fuel droplets with N₂/CO₂/He diluents; discovered long-lived 'cool flames' after radiative extinction.",
+      "fire_safety": "Quantifies which inert gases extinguish fires best in a cabin, and reveals hidden combustion modes after visible flames disappear.",
+      "criteria": {"habitat_scale": 0.2, "material_flammability": 0.3, "detection": 0.4, "suppression": 1, "predictive_modeling": 0.8},
+      "local": false, "tags": ["Droplets", "Suppression", "Cool flames"], "query": "Flame Extinguishment Experiment FLEX"
+    },
+    {
+      "id": "MSC", "name": "Microgravity Smoldering Combustion", "platform": "Space Shuttle", "years": "1990s",
+      "lab": "NASA / UC Berkeley", "focus": "Smoldering of polyurethane foam in microgravity and its transition to flaming.",
+      "fire_safety": "Smoldering is slow, flameless and hard to detect — a classic pre-fire state for overheated equipment and foams.",
+      "criteria": {"habitat_scale": 0.3, "material_flammability": 0.8, "detection": 0.7, "suppression": 0.2, "predictive_modeling": 0.6},
+      "local": false, "tags": ["Smoldering", "Pre-fire"], "query": "smoldering combustion microgravity"
+    },
+    {
+      "id": "ACME", "name": "ACME — Advanced Combustion via Microgravity Experiments", "platform": "ISS · Combustion Integrated Rack", "years": "2017–2020",
+      "lab": "NASA Glenn Research Center", "focus": "Six gaseous-flame studies (soot, flame design, flammability limits, electric-field effects, burning-rate emulator).",
+      "fire_safety": "The Burning Rate Emulator and flammability-limit studies feed predictive models of material flammability.",
+      "criteria": {"habitat_scale": 0.1, "material_flammability": 0.5, "detection": 0.3, "suppression": 0.3, "predictive_modeling": 0.9},
+      "local": false, "tags": ["Gaseous flames", "Soot"], "query": "Advanced Combustion via Microgravity Experiments ACME"
+    },
+    {
+      "id": "SPICE", "name": "SPICE — Smoke Point In Co-flow Experiment", "platform": "ISS · Microgravity Science Glovebox", "years": "2009–2012",
+      "lab": "NASA Glenn Research Center", "focus": "Smoke point (soot emission) of laminar jet flames in microgravity.",
+      "fire_safety": "Soot and smoke production drive both radiation from fires and smoke-detector response.",
+      "criteria": {"habitat_scale": 0.1, "material_flammability": 0.2, "detection": 0.6, "suppression": 0.1, "predictive_modeling": 0.6},
+      "local": false, "tags": ["Soot", "Smoke"], "query": "Smoke Point In Co-flow Experiment"
+    }
+  ],
+  "criteria_labels": {"habitat_scale": "Habitat-scale realism", "material_flammability": "Material flammability", "detection": "Detection & smoke", "suppression": "Suppression", "predictive_modeling": "Predictive modeling"},
+  "habitats": [
+    {"name": "Earth (sea level)", "o2": 20.9, "p": 14.7, "kind": "earth"},
+    {"name": "ISS", "o2": 21.0, "p": 14.7, "kind": "space"},
+    {"name": "Shuttle pre-EVA", "o2": 26.5, "p": 10.2, "kind": "space"},
+    {"name": "Exploration atmosphere (lunar/Mars habitats)", "o2": 34.0, "p": 8.2, "kind": "future"},
+    {"name": "Skylab", "o2": 72.0, "p": 5.0, "kind": "space"},
+    {"name": "Apollo CM in flight", "o2": 100.0, "p": 5.0, "kind": "space"},
+    {"name": "Apollo 1 ground test", "o2": 100.0, "p": 16.7, "kind": "accident"}
+  ],
+  "transfers": [
+    {"space": "Fine-water-mist extinguishers designed for spacecraft", "earth": "Low-water, residue-free fire protection for buildings, ships, data rooms and heritage sites", "icon": "fa-spray-can-sparkles"},
+    {"space": "Smoke-particle measurements in microgravity (SAME)", "earth": "Better-tuned smoke detectors that see the small particles of early, smoldering fires", "icon": "fa-bell"},
+    {"space": "Lightweight breathing-system technology from space programs", "earth": "Lighter self-contained breathing apparatus and air tanks for firefighters", "icon": "fa-mask-ventilator"},
+    {"space": "Flame-resistant fabrics adopted after the Apollo 1 fire", "earth": "Heat- and flame-resistant firefighter protective clothing", "icon": "fa-user-shield"},
+    {"space": "Material flammability screening (worst-case O₂ testing)", "earth": "Safer material choices for aircraft cabins, trains, hospitals (oxygen-enriched rooms)", "icon": "fa-vial-circle-check"},
+    {"space": "Cabin O₂ depletion & CO₂ build-up measured by SAFFIRE", "earth": "Models for enclosed-compartment fires: submarines, aircraft, tunnels, apartments", "icon": "fa-house-chimney-crack"}
+  ],
+  "kb": [
+    {"id": "shape", "keys": ["shape", "round", "sphere", "spherical", "blue", "forme", "ronde", "bleue", "candle", "bougie", "why flame", "pourquoi"],
+     "title": "Why flames look different in microgravity",
+     "answer": "On Earth, hot combustion gases are lighter than the surrounding air, so **buoyancy** pulls them upward and draws fresh air in from below — that is why a candle flame is elongated and yellow (hot soot glowing).\n\nIn microgravity there is **no buoyant convection**. Oxygen only reaches the flame by slow **diffusion** (or by forced ventilation), so the flame becomes **spherical, dimmer and bluish**, with less soot and a lower temperature. Without a ventilation flow, a flame can even **self-extinguish** because it suffocates in its own combustion products."},
+    {"id": "flow", "keys": ["opposed", "concurrent", "flow direction", "airflow", "ventilation", "fan", "ventilateur", "écoulement", "debit", "vent"],
+     "title": "Opposed vs. concurrent flow",
+     "answer": "In a spacecraft, the **ventilation flow** replaces buoyancy: it feeds oxygen to the flame.\n\n- **Concurrent flow** (flame spreads *with* the airflow): hot gases pre-heat the unburnt material ahead — spread is faster and the flame grows larger.\n- **Opposed flow** (flame spreads *against* the airflow): heat must travel upstream — spread is slower.\n\nSAFFIRE-I illustrates this on the same SIBAL fabric at 20 cm/s: sample S1 (concurrent) burned for ~420 s with a strong radiative signal, while S2 (opposed) burned ~70 s with a much weaker one. This is why **shutting down the ventilation** is one of the first fire responses on the ISS."},
+    {"id": "saffire", "keys": ["saffire", "cygnus", "experiment", "expérience", "programme"],
+     "title": "The SAFFIRE experiments",
+     "answer": "**SAFFIRE** (Spacecraft Fire Safety Experiment) ignited large material samples inside uncrewed **Cygnus** cargo vehicles after they left the ISS, so that a realistic-size fire could be studied without risk to a crew.\n\n- **SAFFIRE-I** (2016): one large SIBAL cotton-fiberglass sample, concurrent then opposed flow.\n- **SAFFIRE-II** (2016): nine smaller samples of different materials and conditions.\n- **SAFFIRE-III** (2017): large-scale flame spread revisited, with different ventilation.\n\nSensors include 4 radiometers, 12 thermocouples (plume + sample), anemometers, O₂ and CO₂ sensors and cabin pressure — all available in this dashboard."},
+    {"id": "procedure", "keys": ["procedure", "procédure", "what should", "que faire", "crew", "équipage", "astronaut", "respond", "réagir", "evacuate", "évacuer", "protocol"],
+     "title": "Generic spacecraft fire response",
+     "answer": "Crewed vehicles follow mission-specific, certified procedures. In general terms, an ISS-style response is:\n\n1. **Alarm & gather** — the crew is alerted and gathers at a safe location.\n2. **Stop the ventilation** in the affected module — this removes the airflow that feeds a microgravity flame.\n3. **Remove electrical power** to the suspect equipment.\n4. **Don breathing masks** and monitor combustion products (CO, HCN, HCl, O₂).\n5. **Extinguish** with a portable extinguisher if needed.\n6. **Clean up** the atmosphere and verify before re-entry.\n\n*FLAME DNA is a research prototype: it never replaces official procedures.*"},
+    {"id": "oxygen", "keys": ["oxygen", "oxygène", "o2", "pressure", "pression", "atmosphere", "atmosphère", "exploration", "habitat", "lunar", "lunaire", "mars", "rover"],
+     "title": "Oxygen, pressure and flammability",
+     "answer": "Flammability depends strongly on the **oxygen concentration** (% O₂), not only on its partial pressure. Exploration vehicles and lunar/Martian habitats are planned with a **lower pressure but higher O₂ fraction** (e.g. ~8.2 psia with ~34 % O₂) to simplify spacewalks — but at 34 % O₂ more materials become flammable and flames spread faster than on the ISS (21 %).\n\nThat is exactly the risk window explored by **SoFIE** and **SAFFIRE**, and the reason NASA screens materials in the *worst-case* atmosphere they will see (NASA-STD-6001)."},
+    {"id": "apollo", "keys": ["apollo", "accident", "1967", "history", "histoire"],
+     "title": "The Apollo 1 lesson",
+     "answer": "On 27 January 1967, a fire during a ground test of the **Apollo 1** command module killed astronauts Gus Grissom, Ed White and Roger Chaffee. The cabin held **100 % oxygen at ~16.7 psia**, with many flammable materials (Velcro, nylon) and an inward-opening hatch.\n\nConsequences: a nitrogen/oxygen mix on the pad, flame-resistant materials (Beta cloth), a quick-opening hatch and rigorous **material flammability testing** — practices that still shape spacecraft and firefighter equipment today."},
+    {"id": "earth", "keys": ["earth", "terre", "terrestre", "spinoff", "firefighter", "pompier", "building", "bâtiment", "application", "utilité"],
+     "title": "What space fire research brings to Earth",
+     "answer": "Microgravity removes buoyancy, so it isolates the *fundamental* physics of fire. Results transfer to Earth through:\n\n- **Fine-water-mist extinguishers** — little water, no toxic residue (buildings, ships, data rooms).\n- **Smoke detection** — particle-size data improve detectors for early, smoldering fires.\n- **Firefighter equipment** — lighter breathing systems and flame-resistant protective clothing.\n- **Enclosed-fire models** — SAFFIRE's O₂ depletion and CO₂ build-up inform fires in submarines, aircraft and apartments.\n- **Oxygen-enriched settings** — hospitals and home oxygen therapy benefit from high-O₂ flammability data."},
+    {"id": "detection", "keys": ["detect", "détect", "smoke", "fumée", "sensor", "capteur", "alarm", "alarme", "false", "fausse"],
+     "title": "How FLAME DNA's alert logic works",
+     "answer": "The monitoring module uses a **multi-criteria, persistence-based** logic inspired by spacecraft practice instead of a single threshold:\n\n- **Watch** — one signal deviates from its nominal band (could be a sensor fault).\n- **Warning** — two *independent* fire signatures agree (e.g. smoke + CO) for several seconds.\n- **Fire alarm** — smoke and a combustion product (CO or CO₂ rate) **plus** a thermal signature (temperature rise rate or heat flux) persist.\n\nA single drifting sensor therefore cannot trigger a fire alarm — this reduces false alarms, which are costly on a spacecraft (fans stopped, crew interrupted)."},
+    {"id": "coolflame", "keys": ["cool flame", "flamme froide", "flex", "droplet", "goutte"],
+     "title": "Cool flames (FLEX)",
+     "answer": "During **FLEX** on the ISS, heptane droplets kept burning *after* their visible flame went out: a low-temperature (~500–800 K) **cool flame** chemistry continued. It is invisible and produces different by-products — a reminder that 'no visible flame' does not always mean 'no combustion'."},
+    {"id": "limits", "keys": ["limit", "limite", "fiable", "reliable", "accuracy", "précision", "certif", "real", "réel"],
+     "title": "Limits of this prototype",
+     "answer": "- SAFFIRE measurements are **real NASA data**; derived metrics (flame duration, heat-flux rise…) are computed automatically and should be checked against NASA publications.\n- The live monitoring panel uses **simulated** sensors, calibrated on realistic cabin ranges and SAFFIRE trends.\n- The habitat what-if model is an **illustrative scaling**, not a validated flammability model.\n- FLAME DNA is **not a certified fire-detection system**."}
+  ]
+}

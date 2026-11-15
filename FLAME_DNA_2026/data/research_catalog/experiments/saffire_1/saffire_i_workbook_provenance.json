@@ -1,0 +1,26 @@
+{
+  "source_file": "Saffire-I Telemetry Data Good Process Version.xlsx",
+  "source_sha256": "2e6657842266b80d48bdfef9e6683ff522696a62f95c4b81222bb583b76f9ccf",
+  "source_is_user_uploaded": true,
+  "nasa_provenance_confirmed": false,
+  "interpretation": "Processed workbook with SAFFIRE and Cygnus sheets; distinct Sample1/2 igniter channels DO NOT establish independent S1/S2 sensor datasets.",
+  "source_sheets": {
+    "SaffireData": {
+      "source_rows_without_header": 6083,
+      "valid_rows_kept": 105,
+      "rows_without_saffire_timestamp_removed": 5978,
+      "columns_original": 33,
+      "time_column_original": "Relative Time (s)"
+    },
+    "CygnusData": {
+      "source_rows_without_header": 8072,
+      "valid_rows_kept": 2540,
+      "time_column_original": "Relative Time (s)"
+    }
+  },
+  "derived_time_column": "Elapsed Since First Record (s), relative shift of worksheet Relative Time (s) independently for each sheet",
+  "units": "Preserve source column headings; no calibration or conversion",
+  "warning": "Numeric placeholder/sentinel-like values in some channels are retained unaltered; consult NASA instrumentation documentation before interpreting or using for fire alerts.",
+  "official_psi_98_context": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+  "not_equivalent_to": "saffire_s1_telemetry_clean.csv"
+}

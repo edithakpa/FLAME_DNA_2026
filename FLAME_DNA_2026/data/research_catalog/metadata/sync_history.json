@@ -1,0 +1,65 @@
+[
+  {
+    "started_at": "2026-11-14T21:17:03.648432+00:00",
+    "finished_at": "2026-11-14T21:17:09.412642+00:00",
+    "source": "NASA NTRS",
+    "topics": [
+      {
+        "topic": "microgravity combustion",
+        "received": 5
+      },
+      {
+        "topic": "spacecraft fire safety",
+        "received": 5
+      }
+    ],
+    "received": 10,
+    "processed": 10,
+    "new_publications": 0,
+    "total_local": 40,
+    "status": "completed",
+    "errors": []
+  },
+  {
+    "started_at": "2026-11-14T21:26:30.028083+00:00",
+    "finished_at": "2026-11-14T21:26:35.011489+00:00",
+    "source": "NASA NTRS",
+    "topics": [
+      {
+        "topic": "microgravity combustion",
+        "received": 10
+      },
+      {
+        "topic": "spacecraft fire safety",
+        "received": 10
+      }
+    ],
+    "received": 20,
+    "processed": 20,
+    "new_publications": 0,
+    "total_local": 40,
+    "status": "completed",
+    "errors": []
+  },
+  {
+    "started_at": "2026-11-14T23:59:27.356780+00:00",
+    "finished_at": "2026-11-14T23:59:32.216325+00:00",
+    "source": "NASA NTRS",
+    "topics": [
+      {
+        "topic": "microgravity combustion",
+        "received": 20
+      },
+      {
+        "topic": "spacecraft fire safety",
+        "received": 20
+      }
+    ],
+    "received": 40,
+    "processed": 40,
+    "new_publications": 20,
+    "total_local": 60,
+    "status": "completed",
+    "errors": []
+  }
+]

@@ -1,0 +1,12 @@
+﻿FLAME_DNA_2026/.venv/
+FLAME_DNA_2026/venv/
+**/__pycache__/
+*.pyc
+*.pyo
+.env
+**/.streamlit/secrets.toml
+**/backups/
+.vscode/
+FLAME_DNA_2026/data/research_catalog/experiments/saffire_1/Saffire-I Sample 2 Sensor Data Complete TM graphs.xlsx
+FLAME_DNA_2026/app_backup_*.py
+FLAME_DNA_2026/modules/research_catalog/catalog_ui_backup*.py
